@@ -1,3 +1,5 @@
+# Créer un Action Server qui simule un déplacement vers une cible (Pose2D) avec feedback de distance restante.
+
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer, CancelResponse, GoalResponse
