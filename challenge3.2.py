@@ -1,3 +1,5 @@
+# Implémenter un Lifecycle Node qui démarre un publisher seulement en état 'active' et l'arrête en 'deactivate'.
+
 import rclpy
 from rclpy.lifecycle import Node, TransitionCallbackReturn, State
 from std_msgs.msg import String
