@@ -1,3 +1,5 @@
+# Publier une valeur Float64 simulant une température (20°C + bruit random) sur /temperature à 1Hz.
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
