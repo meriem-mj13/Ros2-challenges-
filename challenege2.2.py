@@ -1,3 +1,5 @@
+# Créer un service /calcule qui reçoit deux Float64 et une opération (+,-,*,/) et retourne le résultat.
+
 import rclpy
 from rclpy.node import Node
 from my_package.srv import Calculate
