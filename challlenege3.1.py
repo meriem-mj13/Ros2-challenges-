@@ -1,3 +1,5 @@
+# Broadcaster une transformation dynamique entre 'world' et 'robot' qui tourne sur l'axe Z à 0.5 rad/s.
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TransformStamped
